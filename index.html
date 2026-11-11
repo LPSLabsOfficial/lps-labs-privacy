@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Privacy policy for LPS EQ by LPS Labs, an Android audio equalizer and sound processing app.">
+  <title>Privacy Policy | LPS EQ — LPS Labs</title>
+  <style>
+    :root{color-scheme:dark;--bg:#101216;--surface:#191c22;--text:#f6f7fa;--muted:#b7bcc7;--accent:#ff9c46;--line:#333842}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+    .wrap{max-width:820px;margin:0 auto;padding:40px 23px 78px}
+    header{padding:0 0 24px;border-bottom:1px solid var(--line);margin-bottom:28px}
+    .brand{letter-spacing:.16em;font-size:.82rem;color:var(--accent);font-weight:800}
+    h1{font-size:clamp(2rem,6vw,3rem);letter-spacing:-.04em;line-height:1.15;margin:14px 0}
+    h2{font-size:1.28rem;line-height:1.35;margin:32px 0 10px}
+    p,li{color:var(--muted)}strong{color:var(--text)}ul{padding-left:1.3rem}
+    .sub{max-width:660px}.meta{font-size:.92rem;color:var(--muted)}
+    .notice{background:var(--surface);padding:17px 18px;border-left:3px solid var(--accent);border-radius:5px;margin-top:24px}
+    a{color:#a8c9ff}a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    footer{border-top:1px solid var(--line);padding-top:22px;margin-top:48px;color:var(--muted);font-size:.93rem}
+  </style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <div class="brand">LPS LABS · LPS EQ</div>
+    <h1>Privacy Policy</h1>
+    <p class="sub">This policy describes how LPS EQ accesses, uses and protects information when you use its Android equalizer, audio-processing and related features.</p>
+    <div class="meta"><strong>Last updated:</strong> 11 November 2026 · <strong>App:</strong> LPS EQ · <strong>Package:</strong> com.lpslabs.lpseq</div>
+  </header>
+  <section aria-labelledby="developer"><h2 id="developer">1. Who we are</h2>
+    <p>LPS EQ is developed and provided by <strong>LPS Labs</strong>, an independent Android app developer. This policy applies to the LPS EQ Android application.</p>
+  </section>
+  <section><h2>2. Information used to operate LPS EQ</h2>
+    <p>LPS EQ primarily operates on your device. It does not require you to create an LPS Labs account. The current app does not include a third-party advertising SDK or developer-operated analytics service.</p>
+    <ul>
+      <li><strong>Audio sessions and audio settings.</strong> LPS EQ uses Android audio APIs and audio session information to apply equalization, sound effects and output-specific settings. It is not designed to record microphone audio or upload audio streams to LPS Labs.</li>
+      <li><strong>Presets and settings.</strong> EQ bands, sound profiles, preferences, route-specific settings and cached update information are stored in the app's local storage.</li>
+      <li><strong>Bluetooth device information.</strong> If you enable relevant features and grant permission, the app can read connected Bluetooth device names to associate sound settings with a selected device, including optional car audio routing. This is used on the device.</li>
+      <li><strong>Music and backup files.</strong> When you deliberately choose a music file, or import or export a sound-profile backup, LPS EQ accesses the files you select using Android's system file picker. The app does not automatically transmit those file contents to LPS Labs.</li>
+      <li><strong>Optional enhanced session detection.</strong> With additional explicit setup using Android debugging permissions, LPS EQ may access device audio-session diagnostic information to identify compatible playback sessions. This capability is not granted by normal installation and is used for audio processing on the device.</li>
+    </ul>
+  </section>
+  <section><h2>3. Internet connection and third-party services</h2>
+    <p>LPS EQ can make a secure HTTPS request to GitHub-hosted update metadata to check whether an update is available. Such a request may disclose routine network information, such as your IP address and technical request data, to GitHub and network providers. LPS Labs does not use the update checker to upload your EQ profiles, music files or audio recordings.</p>
+    <p>If you install LPS EQ through Google Play, Google handles the store transaction, licensing, downloads and related account information under Google's own terms and privacy policy. LPS EQ does not directly receive or store your payment card number.</p>
+    <p>If you choose a cloud storage provider in Android's file picker, any file you save there is handled by that provider according to your choice and its terms. Android itself, connected media apps, and Bluetooth services may separately process information under their own privacy practices.</p>
+  </section>
+  <section><h2>4. Permissions and why they are used</h2>
+    <ul>
+      <li><strong>Modify audio settings:</strong> enable equalizer and sound-processing functionality.</li>
+      <li><strong>Foreground service and special-use foreground service:</strong> keep user-enabled audio processing running with a system status notification.</li>
+      <li><strong>Notifications:</strong> provide relevant audio-engine and optional update notifications, subject to Android notification permission.</li>
+      <li><strong>Receive boot completed:</strong> restore chosen audio settings after a device restart where supported.</li>
+      <li><strong>Bluetooth access:</strong> detect connected device names for optional route-specific features, when permitted.</li>
+      <li><strong>Internet:</strong> retrieve update metadata through HTTPS.</li>
+      <li><strong>Optional DUMP/debugging permission:</strong> support enhanced audio-session detection only when explicitly enabled through additional Android debugging setup.</li>
+    </ul>
+  </section>
+  <section><h2>5. Sharing, retention and deletion</h2>
+    <p>The reviewed version of LPS EQ does not contain a developer-operated account database or a built-in feature for uploading personal profiles to LPS Labs. Local app preferences remain on your device until you reset them, clear the app's data, or uninstall the app.</p>
+    <p>Backups you export are saved to the location you choose; you control their retention and deletion. Depending on your Android settings, the operating system or your backup provider may back up app information. You can manage those backups through the relevant device or provider settings.</p>
+    <p>To delete locally stored LPS EQ information, use your Android device's <strong>Settings → Apps → LPS EQ → Storage → Clear storage</strong>, or uninstall the app. Delete exported backups separately from the destination you selected. LPS Labs does not hold a user account that needs to be deleted.</p>
+  </section>
+  <section><h2>6. Security</h2>
+    <p>LPS EQ uses Android application storage for local settings and HTTPS for its update metadata request. No software can guarantee absolute security. Keep Android updated, install app releases from trusted sources, and protect any backup files you export.</p>
+  </section>
+  <section><h2>7. Children's privacy</h2>
+    <p>LPS EQ is a general-purpose audio utility and is not specifically designed for children. It does not knowingly operate a service for collecting children's personal information.</p>
+  </section>
+  <section><h2>8. Updates to this policy</h2>
+    <p>This policy may be revised when the app's features, data handling or legal obligations change. An updated policy will appear on this page with a revised date.</p>
+  </section>
+  <section><h2>9. Privacy enquiries</h2>
+    <p>For privacy questions or data-handling enquiries, contact LPS Labs at <a href="mailto:lpslabs1a@gmail.com">lpslabs1a@gmail.com</a>.</p>
+  </section>
+  <footer>© 2026 LPS Labs · LPS EQ</footer>
+</main>
+</body>
+</html>
